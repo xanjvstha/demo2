@@ -1,0 +1,25 @@
+<!Doctype html>
+<html>
+<head>
+    <script>
+        function validateForm() {
+          let x = document.forms["myForm"]["uname"].value;
+          if (x == "") {
+            alert("Email must be filled out");
+            return false;
+          }
+        }
+        </script>
+<title>ABC</title>
+<meta charset="utf-8">
+</head>
+<body>
+    <h2>Password Recovery Form</h2>
+
+    <form name="myForm" action="" onsubmit="return validateForm()" method="post">
+      Email: <input type="text" name="uname">
+      <input type="submit" value="Recover Password">        
+</form>
+<a href="signin.html"target=_blank><button>Signin</button></a>
+</body
+</html>

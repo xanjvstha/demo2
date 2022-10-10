@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function validateForm()
+        {
+            let x = document.getElementById("fname").value;
+            if(x == "")
+            {
+                document.getElementById("fe").innerHTML = "please enter your name";
+                return false;
+            }
+            else if(document.getElementById("email").value =="")
+            {
+            document.getElementById("ee").innerHTML = "please enter your email";
+            return false;
+            }
+        }
+    </script>
+</head>
+<body>
+    <h2>JavaScript Validation</h2>
+    <form name="myForm" action="signin.html" onsubmit="return validateForm()" method="post">
+        Name: <input type="text" id="fname" name="fname"><p id="fe" style="color: red;"></p>
+        Email: <input type="text" id="email" name="email"><p id="ee" style="color: red;"></p>
+        <input id="textfield" name="textfield" type="text" value="enter something" onfocus="if (this.value == 'enter something') {this.value = '';}" onblur="if (this.value == '') {this.value = 'enter something';}">
+        <input type="submit" value="Submit">
+    </form>  
+</body>
+</html>
+
+any topic
+2-4 page
+cover image
+footer menu icon
+left panel
+image / multimedia page
+login and registration
+Validation

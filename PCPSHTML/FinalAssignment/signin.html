@@ -1,0 +1,33 @@
+<!Doctype html>
+<html>
+<head>
+	<script>
+		function validateForm() {
+		  let x = document.forms["myForm"]["fname"].value;
+		  if (x == "") {
+			alert("Email must be filled out");
+			return false;
+		  }
+		}
+		</script>
+<title>ABC</title>
+<meta charset="utf-8">
+</head>
+<body>
+	<legend>LOGIN FORM</legend>
+	<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+		Email: <input type="email" name="fname">
+
+<label for="password">Enter Password: - </label><input type="password" id="password" name="password"><br>
+<hr>
+<button><a href="class1.html" target=_blank>Signup</a></button><br>
+<hr>
+<button><a href="recoverpw.html" target=_blank>Forgot Password</a></button><br>
+<hr>
+<a href="signin.html" target=_blank><button>Signin</button></a>
+</form>
+</body
+</html>
+
+</body>
+</html>

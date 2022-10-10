@@ -1,0 +1,434 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.con
+{
+    margin: auto;
+    max-width: 1170px;
+}
+.line
+{
+    /*max-width: 1280px;*/
+    background: red;
+}
+.flex
+{
+    display: flex;
+    justify-content: space-between;
+}
+header
+{
+   padding: 10px;
+}
+.header-top-left
+{
+    margin-top: 7px;
+}
+.header-top-left ul li
+{
+    display: inline;
+    margin-right: 40px;
+    color: white;
+    font-size: 12px;
+}
+.header-top-right a
+{
+    padding: 10px;
+}
+.header-top-right i
+{
+    background: #000;
+    color: white;
+    transition: 0.9s;
+}
+.header-top-right i:hover
+{
+    background: blue;
+    transform: rotate(360deg);
+}
+.mid
+{
+    margin-top: 10px;
+}
+.w-30
+{
+    flex-basis: 30%;
+}
+.w-70
+{
+    flex-basis: 65%;
+}
+img
+{
+    width: 100%;
+}
+nav
+{
+    background:  rgb(43, 43, 97);
+    color: #fff;
+}
+nav ul li
+{
+    display: inline;
+    padding: 10px;
+    margin-right: 4px;
+    font-size: 18px;
+}
+nav ul li b
+{
+    color: orange;
+}
+nav ul li:hover
+{
+    color: orange;
+}
+.banner
+{
+    margin-top: 15px;
+    background:  rgb(247, 241, 241);
+    padding: 10px;
+}
+.banner1
+{
+    margin-top: 15px;
+    background: rgb(247, 241, 241);
+    padding: 10px 150px;
+}
+.banner2
+{
+    margin-top: 15px;
+    background: rgb(247, 241, 241);
+    padding: 10px 100px;
+}
+h1
+{
+    font-size: 46px;
+    text-align: center;
+    color:  rgb(37, 37, 242);
+}
+h1:hover
+{
+   color: #000;
+}
+.photo
+{
+    flex-basis: 25%;
+}
+.photo1
+{
+    flex-basis: 74%;
+}
+h3{
+    margin-top: 10px;
+}
+.change
+{
+    background: rgb(63, 63, 171);
+}
+.photo1 .left
+{
+  margin-bottom: 15px;
+}
+.photo1 .right
+{
+    padding: 20px;
+    line-height: 30px;
+    color: #fff;
+}
+.btn
+{
+    color:#fff;
+    background: rgb(63, 63, 171);
+    border: 2px solid #fff;
+    padding: 5px;
+    margin-left: 250px;
+}
+.bottom
+{
+    width: 100px;
+    height: 330px;
+    border: 2px solid rgb(127, 123, 123);
+    margin-top: -70px;
+}
+.ad
+{
+    text-align: right;
+    margin-right: 30px;
+    color: blue;
+    font-size: 22px;
+}
+.ac
+{
+    width: 25%;
+    margin: 10px;
+}
+h4
+{
+    color: blue;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.update
+{
+    background: #fff;
+}
+.photo3
+{
+    flex-basis: 73%;
+}
+.photo3 .left
+{
+    border: 1px solid #ada3a3;
+    height: 600px;
+    margin: 5px;
+}
+.photo3 .right
+{
+    height: 500px;
+    margin: 5px;
+}
+.rt
+{
+    flex-basis: 25%;
+    border: 1px solid #ada3a3;
+    height: 400px;
+    margin: 5px;
+}
+.imge
+{
+    position: relative;
+    transition: transform 0.9s;
+}
+.texT
+{
+    position: absolute;
+    color: #fff;
+}
+.rt:hover .texT
+{
+    color: blue;
+    height: 240px;
+    width: 292px;
+    background: rgb(70, 56, 56);
+    opacity: 0.5;
+}
+.rt .img
+{
+    transition: 0.5s all ease-in-out;
+}
+.rt:hover .img
+{
+    transform: scale(1.5);;
+}
+p
+{
+    font-size: 13px;
+}
+.news
+{
+    border: 1px solid black;
+    height: 130px;
+    width: 296px;
+    margin-top: -175px;
+    background-image: url('../img/14.jpg');
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+.box
+{
+    border: 1px solid #fff;
+    height: 60px;
+    width: 65px;
+    margin: 10px;
+    background-image: url('../img/14.jpg');
+    background-size: cover;
+}
+.sub
+{
+    position: absolute;
+    left: 90px;
+    top: 10px;
+}
+.btn1
+{
+    padding: 5px;
+    background: #fff;
+    color: #000;
+    margin-left: 10px;
+}
+.over
+{
+    overflow: scroll;
+    height: 200px;
+    padding: 10px;
+}
+.left .but
+{
+    width: 50%;
+    border: 1px solid grey;
+}
+.left .right .but
+{
+    width: 50%;
+}
+.wid
+{
+    width: 50%;
+}
+.p
+{
+    margin-left: 10px;
+}
+.bb
+{
+    height: 95px;
+    border: 1px solid black;
+    width: 400px;
+    margin-top: 16px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+.k
+{
+    margin-top: -20px;
+}
+.n
+{
+    margin-top: 50px;
+}
+.o
+{
+    margin-top: -25px;
+}
+.sup
+{
+    border: 1px solid rgb(227, 222, 222);
+    height: 130px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.suz
+{
+    background:  rgb(227, 222, 222);
+}
+.op
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.pop
+{
+    border: 1px solid  rgb(227, 222, 222);
+    height: 20px;
+    width: 20px;
+    text-align: center;
+}
+.rr
+{
+    margin-left: 950px;
+}
+.vid
+{
+    flex-basis: 33%;
+    position: relative;
+}
+.pre
+{
+    visibility: hidden;
+    width: 33%;   
+    background:  rgb(40, 39, 39);
+    position: absolute;
+    transition: 0.2s ease-in;
+    height: 328px;
+    width: 385px;
+    top: 0px;
+    opacity: 0.5;
+    overflow: hidden;
+}
+.vid img
+{
+    position: relative;
+}
+.vid:hover .pre
+{
+   transform: scaleY(1);
+   visibility: visible;
+}
+h6
+{
+    position: absolute;
+    color: #fff;
+    font-size: 22px;
+    /* top: 10px; */
+    bottom: 25px;
+    left: 10px;
+}
+h6:hover
+{
+    color: rgb(53, 53, 110);
+}
+footer
+{
+    background: rgb(53, 53, 110);
+    border: 1px solid black;
+    color: #fff;
+    height: 320px;
+    width: 1170px;
+    margin-top: 40px;
+}
+.hamro
+{
+    margin-top: 4px;
+    padding: 10px;
+}
+.hamro h4
+{
+    color: #fff;
+}
+.hamro p
+{
+    margin-top: 10px;
+    line-height: 2;
+}
+.gg
+{
+    margin-right: 90px; 
+}
+.gg i
+{
+    color: black;
+    background: #fff;
+    transition: 0.9s;
+    padding: 5px;
+}
+.gg i:hover
+{
+    transform: rotate(360deg);
+}
+.finish
+{
+    text-align: center;
+    background: red;
+    height: 60px;
+    width: 1170px;
+    padding: 20px;
+    position: relative;
+}
+.btn5
+{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background-color: rgb(53, 53, 110);
+    text-align: center;
+    padding: 16px;
+    top: -15px;
+    right: 25px;
+}
